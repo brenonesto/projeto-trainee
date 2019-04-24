@@ -1,5 +1,5 @@
 nav {
-    background-color: blue !important;
+    background-color: #1E027A !important;
 }
 
 .eventos {
@@ -9,4 +9,9 @@ nav {
 section {
     padding-top: 50px;
     margin: 10px;
+}
+
+.brand-logo {
+    margin-left: 20px;
+    
 }
