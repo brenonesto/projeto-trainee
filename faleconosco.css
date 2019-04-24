@@ -23,3 +23,11 @@ nav {
     margin-left: 20px;
     
 }
+
+#logo {
+    width: 30%;
+}
+
+.page-footer {
+    background-color: #1E027A !important; 
+}

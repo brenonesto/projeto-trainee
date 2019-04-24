@@ -15,3 +15,11 @@ section {
     margin-left: 20px;
     
 }
+
+.page-footer {
+    background-color: #1E027A !important; 
+}
+
+#logo {
+    width: 30%;
+}
