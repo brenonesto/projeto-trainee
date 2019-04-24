@@ -16,10 +16,11 @@ section {
     
 }
 
+#logo {
+    width: 30%;
+}
+
 .page-footer {
     background-color: #1E027A !important; 
 }
 
-#logo {
-    width: 30%;
-}
