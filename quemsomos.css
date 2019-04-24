@@ -5,9 +5,14 @@
     margin-top: 5%;
 }
 nav {
-    background-color: blue !important;
+    background-color: #1E027A !important;
 }
 .integrantes{
     width: 10px;
 
+}
+
+.brand-logo {
+    margin-left: 20px;
+    
 }
