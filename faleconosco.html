@@ -15,20 +15,31 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="test.html">Home</a></li>
-                <li><a href="quemsomos.html">Quem somos</a></li>
-                <li><a href="collapsible.html">Nossa Historia</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">EJs</a></li>
-                <li><a href="#">Parceiros</a></li>
-                <li class="active"><a href="faleconosco.html">Fale Conosco</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="#">Nossa Historia</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="#">EJs</a></li>
+        <li><a href="#">Parceiros</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="quemsomos.html">Quem Somos</a></li>
+      <li><a href="#">Nossa Historia</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="#">EJs</a></li>
+      <li><a href="#">Parceiros</a></li>
+      <li><a href="faleconosco.html">Fale Conosco</a></li>
+  </ul>
     <div class="textodaora">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, a doloremque dolorem aliquam enim doloribus
     maiores at quasi atque sequi earum? Quasi nisi porro reiciendis deleniti neque quibusdam nihil eaque!
@@ -66,6 +77,9 @@
             <i class="material-icons right">send</i>
           </button>
     </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/home.js"></script>
 
 
 </body>
