@@ -1,3 +1,12 @@
 nav {
     background-color: blue !important;
 }
+
+.eventos {
+    height: 100px;
+}
+
+section {
+    padding-top: 50px;
+    margin: 10px;
+}
