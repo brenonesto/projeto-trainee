@@ -1,5 +1,5 @@
 nav {
-    background-color: #1E027A !important;
+    background-color: #000030 !important;
 }
 
 .eventos {
@@ -17,10 +17,17 @@ section {
 }
 
 #logo {
-    width: 30%;
+    width: 31%;
 }
 
 .page-footer {
-    background-color: #1E027A !important; 
+    background-color: #000030 !important; 
 }
 
+.carrossel {
+    background-image: url("../download.jpeg");
+}
+
+.margin {
+    margin: 10px;
+}
