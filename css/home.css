@@ -46,6 +46,12 @@ h3 {
     color: #430001;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #430001;
+}
+
 .secoes {
     margin: auto;
     padding-top: 20px;
