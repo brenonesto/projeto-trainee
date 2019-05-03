@@ -4270,8 +4270,6 @@ table span.badge {
 }
 
 nav {
-  color: #fff;
-  background-color: #ee6e73;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4793,6 +4791,9 @@ small {
 
 .card.medium {
   height: 400px;
+  width: 400px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .card.large {
@@ -8359,10 +8360,10 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel {
-  overflow: hidden;
-  position: relative;
+  overflow-x: hidden;
+  position: static;
   width: 100%;
-  height: 400px;
+  height: 600px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -8417,7 +8418,7 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel .carousel-item > img {
-  width: 70%;
+  width: 100%;
 }
 
 .carousel .indicators {

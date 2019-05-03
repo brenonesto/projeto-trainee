@@ -1,5 +1,5 @@
-nav {
-    background-color: #430001 !important;
+nav {  
+    background-image: linear-gradient(to left, #030b42, #091b82);
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -17,20 +17,27 @@ nav {
 
 section {
     padding-top: 50px;
-    margin: 10px;
 }
 
 .brand-logo {
     margin-left: 20px;
-
 }
 
 #logo {
-    width: 31%;
+    width: 9%;
+    
+}
+
+#home2 {
+    margin-left:150px;
+}
+
+#ice {
+    width: 500px;
 }
 
 .page-footer {
-    background-color: #430001 !important;
+    background-image: linear-gradient(to left, #030b42, #091b82) !important;
 }
 
 .carrossel {
@@ -47,6 +54,13 @@ section {
 
 .slick-next:before {
     color: black;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
 }
 
 h3 {
@@ -78,6 +92,20 @@ h4 {
     font-size: 35px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+}
+
+.atos {
+    position: absolute;
+    bottom: 33%;
+    right: 10%;
+    left: 10%;
+    top: 20%;
+
+}
+
+
+.top {
+    margin-top: 1px;
 }
 
 .newsletter-content p {
@@ -122,6 +150,7 @@ section {
     border: 1px solid #430001;
     padding-left: 20px;
     padding-right: 20px;
+    margin: auto;
 }
 
 
@@ -155,9 +184,28 @@ section {
     vertical-align: middle;
 }
 
-.eventosimagem{
+.eventosimagem {
     display: inline-block;
     position: relative;
     overflow: none;
-   
+
+}
+
+#quemsomos {
+    background-color: #7386B1;
+}
+
+.nav-wrapper {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fejemg {
+    float: left;
+    width: 450px;
+}
+
+#bj {
+    float: left;
+    width: 300px;
 }
